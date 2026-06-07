@@ -64,11 +64,11 @@ Titanicの生存予測においては、Logistic Regressionや単体のDecisionT
 各試行における5-fold Cross Validation（CV）の最高精度の推移です。
 
 モデル	施策内容	CV Accuracy
-Random Forest	初期（特徴量追加：FamilySize, IsAlone, IsChild）	0.832
-Gradient Boosting	モデル変更・ハイパーパラメータ調整（lr=0.1, max_depth=4等）	0.8328
-Gradient Boosting	Age補完改善＋HasCabin＋TicketGroupSize追加	0.8362
-Gradient Boosting	さらにDeck特徴量を追加	0.8373
-XGBoost	Deck・HasCabin・TicketGroupSizeを活用しGridSearch実行	0.8440  
+Random Forest	初期（特徴量追加：FamilySize, IsAlone, IsChild）	0.832<br>
+Gradient Boosting	モデル変更・ハイパーパラメータ調整（lr=0.1, max_depth=4等）	0.8328<br>
+Gradient Boosting	Age補完改善＋HasCabin＋TicketGroupSize追加	0.8362<br>
+Gradient Boosting	さらにDeck特徴量を追加	0.8373<br>
+XGBoost	Deck・HasCabin・TicketGroupSizeを活用しGridSearch実行	0.8440<br>
 
 * **Kaggle Public Score 最高値**: 0.78947 
 
