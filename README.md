@@ -85,5 +85,4 @@ XGBoost	Deck・HasCabin・TicketGroupSizeを活用しGridSearch実行	0.8440<br>
 * **ドメイン知識の重要性**: 「客室等級が高いほど救命ボートへアクセスしやすい（Deck / HasCabin）」や「子どもや家族連れの避難傾向（IsChild / FamilySize）」など、仮説に基づく特徴量作成が精度向上に直結しました 。
 
 
-* 
-**汎化性能の課題**: CVスコアとKaggleのPublic Score間に乖離が見られます 。今後は大幅な特徴量変更を行うよりも、最高スコアを出した保守的なRandom Forestモデルをベースに、過学習を抑えるためのパラメータ（max_depthやmin_samples_leafなど）を微調整していく方針が妥当と考えられます 。
+* **汎化性能の課題**: CVスコアとKaggleのPublic Score間に乖離が見られます 。今後は大幅な特徴量変更を行うよりも、最高スコアを出した保守的なRandom Forestモデルをベースに、過学習を抑えるためのパラメータ（max_depthやmin_samples_leafなど）を微調整していく方針が妥当と考えられます 。
